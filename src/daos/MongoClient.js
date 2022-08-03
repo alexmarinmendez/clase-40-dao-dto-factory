@@ -7,7 +7,7 @@ export default class MongoClient {
   }
   connect = async () => {
     try {
-      await this.client.connect('mongodb+srv://test:coder@cluster0.q6dhk.mongodb.net/clase40?retryWrites=true&w=majority', {
+      await this.client.connect('', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       });
